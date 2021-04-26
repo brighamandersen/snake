@@ -42,8 +42,11 @@ export function getSnakeHead() {
   return snakeBody[0];
 }
 
+export function getSnakeLength() {
+  return snakeBody.length;
+}
+
 export function snakeIntersected() {
-  // check if head intersected with any body parts
   return onSnake(snakeBody[0], { ignoreHead: true });
 }
 
