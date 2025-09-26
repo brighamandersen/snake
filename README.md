@@ -5,3 +5,10 @@ A blast from the past, this retro snake game will give you some serious nostalgi
 Link to website: [snake.brighambandersen.com](https://snake.brighambandersen.com)
 
 ![Demo Screenshot](./README-demo-screenshot.webp)
+
+### Deploying to Production
+
+```bash
+cd path/to/repo
+./deploy/deploy.sh
+```
